@@ -1,10 +1,16 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
+name = "Zui"
+
 @app.route("/")
 def index():
-    return "Hello"
+    return render_template("index.html", blah={
+        'h': "Hello, " + name,
+        'y': "and beyond",
+        't': "Orochimaru"
+    })
 
 @app.route("/blah/")
 def blah():
