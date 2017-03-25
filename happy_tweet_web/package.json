@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Arod15/HappyTweet2/issues"
   },
-  "homepage": "https://github.com/Arod15/HappyTweet2#readme"
+  "homepage": "https://github.com/Arod15/HappyTweet2#readme",
+  "devDependencies": {
+    "create-react-app": "^1.3.0"
+  }
 }
