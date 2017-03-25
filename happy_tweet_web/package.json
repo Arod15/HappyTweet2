@@ -1,19 +1,18 @@
 {
-  "name": "happy_tweet_web",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "name": "happy_tweets",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Arod15/HappyTweet2.git"
-  },
-  "author": "Beanie Babies",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Arod15/HappyTweet2/issues"
-  },
-  "homepage": "https://github.com/Arod15/HappyTweet2#readme"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
